@@ -79,7 +79,7 @@ Needs: Linux, an NVIDIA GPU with the
 Python 3, ffmpeg, git. Claude Code installed on the host if you use the subscription option.
 
 ```bash
-git clone <this repo> stream-clipper-kit && cd stream-clipper-kit
+git clone https://github.com/sudipta57/stream-clipper-kit.git && cd stream-clipper-kit
 ./install.sh                         # clones OpenShorts, applies the patch, creates openshorts/.env
 nano openshorts/.env                 # pick the Claude option (see above)
 cd openshorts && docker compose up -d --build backend && cd ..
@@ -136,6 +136,5 @@ by git.
   OpenShorts' `cloud/` folder has a separate commercial license and is not part of this kit.
 - Transcription: [faster-whisper](https://github.com/SYSTRAN/faster-whisper) (inside OpenShorts).
   Downloads: [yt-dlp](https://github.com/yt-dlp/yt-dlp). Video: [FFmpeg](https://ffmpeg.org).
-- Moment picking: [Claude](https://www.anthropic.com/claude) by Anthropic. Much of this kit was
-  written with Claude Code.
+- Moment picking: [Claude](https://www.anthropic.com/claude) by Anthropic.
 - This kit: MIT License, see [LICENSE](LICENSE).
