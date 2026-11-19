@@ -1,0 +1,31 @@
+{
+  "name": "Example: a paid clipping campaign with a sponsor",
+  "campaign_url": "https://example.com/your-campaign-page",
+  "rules_url": "https://example.com/your-campaign-rules",
+  "audience_rule": "At least 50% of viewers from the US, Canada, UK, Australia or New Zealand (check your campaign's own rule).",
+  "brief": "Campaign: a streamer's sponsored event (paste the campaign's brief here, in full).\n\nClip rules:\n- Only footage from the event the campaign links to.\n- The sponsor must be visible or mentioned in every clip.\n- One clear moment per clip: hook in the first 2 seconds, clear payoff.\n- No misleading titles, fake context or clickbait.\n\nCaption rules:\n- Mention the sponsor and the streamer; include the required hashtags.",
+  "must_say": ["sponsor"],
+  "clips": 4,
+  "min_seconds": 12,
+  "max_seconds": 30,
+  "captions": true,
+  "auto_hook": false,
+  "cta_text": "Watch SomeStreamer live on Twitch",
+  "watermark": "brand/your_sponsor_logo.png",
+  "watermark_width": 520,
+  "fix_words": {
+    "clicks": "Clix"
+  },
+  "caption_required": [
+    {"text": "@SomeStreamer", "add": "Watch SomeStreamer live on Twitch"},
+    "#ad",
+    "#GTA6"
+  ],
+  "platforms": ["youtube", "instagram"],
+  "posting_checklist": [
+    "Sponsor logo on screen (watermark) and in the caption",
+    "Submit the post link on the campaign page within its time limit",
+    "Check the audience rule before submitting"
+  ],
+  "posting_notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Example: a streamer's GTA 6 gameplay",
+  "campaign_url": "(none: page-growth clips)",
+  "rules_url": "(none)",
+  "audience_rule": "English captions and on-screen text, aimed at a US/UK audience.",
+  "brief": "A popular streamer is playing GTA 6 live. Goal: their best GAMEPLAY moments as short vertical clips for a GTA 6 clips page.\n\nClip rules:\n- GAMEPLAY ONLY: something happening in GTA 6 on screen (chases, crashes, fights, fails, animals, police, missions, discoveries, glitches) with the streamer reacting to it. Skip talking to chat, IRL segments, menus, loading screens, ads and sponsor reads.\n- The streamer must carry the moment with a big, funny or memorable reaction; the clip must make sense to a new viewer without context.\n- Hook in the first second, payoff before the end.\n- Avoid moments where licensed music plays loudly.\n- Never show the streamer in a negative light; keep what they said and meant.\n- Score 0 anything sexual, any nudity or slurs.\n\nCaption rules (title, hook and descriptions):\n- Accurately describe what happens; meme-style hooks are fine.\n- Include #GTA6 and the streamer's hashtag.\n- Clean words only; English only; title under 70 characters.",
+  "must_say": [],
+  "clips": 4,
+  "min_seconds": 8,
+  "max_seconds": 20,
+  "captions": true,
+  "auto_hook": false,
+  "cta_text": "Watch SomeStreamer live on YouTube",
+  "fix_words": {
+    "some streamer": "SomeStreamer"
+  },
+  "caption_required": ["#SomeStreamer", "#GTA6"],
+  "platforms": ["youtube", "instagram"],
+  "posting_checklist": [
+    "Credit the streamer in the caption",
+    "Post 20-60 minutes apart; never the same clip twice on one platform"
+  ],
+  "posting_notes": []
+}

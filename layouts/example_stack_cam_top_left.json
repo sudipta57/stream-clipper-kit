@@ -1,0 +1,4 @@
+{
+  "layout": {"mode": "stack", "face_box": "480:440:0:60", "face_h": 820, "divider": 6, "logo_y": 40, "logo_width": 560},
+  "_note": "Facecam on top, gameplay below: a green-screen cutout camera in the top-left corner. logo_y puts a sponsor/campaign overlay at the very top (captions sit at the seam, the bottom is covered by the Shorts/Reels buttons)."
+}

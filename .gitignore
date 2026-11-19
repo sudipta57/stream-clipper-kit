@@ -1,0 +1,15 @@
+# Created locally by install.sh / the kit: never commit
+openshorts/
+footage/
+clips/
+secrets/
+brand/
+work/
+*.env
+.env
+cookies*.txt
+__pycache__/
+*.pyc
+*.mp4
+*.m4a
+*.ts

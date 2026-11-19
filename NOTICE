@@ -1,0 +1,27 @@
+stream-clipper-kit
+Copyright (c) 2026 stream-clipper-kit contributors. MIT License (see LICENSE).
+
+This kit works with OpenShorts (https://github.com/mutonby/openshorts):
+  OpenShorts
+  Copyright (c) 2024 OpenShorts
+  The OpenShorts core application is licensed under the MIT License.
+
+patches/openshorts/openshorts.patch modifies OpenShorts files (Dockerfile, app.py,
+llm_backend.py, main.py) at OpenShorts commit 0069894; patches/openshorts/campaign_brief.py
+and docker-compose.override.yml are new files for OpenShorts. These keep the MIT License
+of OpenShorts, whose copyright and permission notice follow:
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+OpenShorts' cloud/ folder is under the separate OpenShorts Commercial License. Nothing
+from it is included in or needed by this kit.

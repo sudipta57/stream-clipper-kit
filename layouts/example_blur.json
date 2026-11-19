@@ -1,0 +1,4 @@
+{
+  "layout": {"mode": "blur", "cta_box": "0x9146FF@0.92", "cta_y": 0.22, "caption_y": 0.80},
+  "_note": "Whole 16:9 frame in the middle over a blurred copy. Works for any stream without a facecam."
+}

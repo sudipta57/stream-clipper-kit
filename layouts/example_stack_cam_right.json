@@ -1,0 +1,4 @@
+{
+  "layout": {"mode": "stack", "face_box": "576:322:1344:478", "face_h": 620, "divider": 6},
+  "_note": "Facecam on top, gameplay below: a ~580x330 camera at the right edge, middle height (1080p). The gameplay crop moves left of the camera automatically."
+}

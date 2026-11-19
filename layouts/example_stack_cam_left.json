@@ -1,0 +1,4 @@
+{
+  "layout": {"mode": "stack", "face_box": "376:236:10:462", "face_h": 680, "divider": 6, "cta_box": "0xE53935@0.92", "cta_y": 0.25},
+  "_note": "Facecam on top, gameplay below. face_box is w:h:x:y in source pixels (1080p): here a ~380x240 camera at the left edge, middle height. Measure yours with: python3 kit/clipkit.py frame SOURCE.mp4 --at 120 --grid --out grid.jpg"
+}
